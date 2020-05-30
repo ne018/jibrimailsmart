@@ -46,7 +46,7 @@ def send_mail(receiver_email, sender_email, sender_pass, urllink, roomname):
         Hi there,
         You may download your recorded video from room %s on the link below:
         %s
-        - Qoneq System
+        - Service System
         """
 
     html = """\
@@ -55,7 +55,7 @@ def send_mail(receiver_email, sender_email, sender_pass, urllink, roomname):
         <p>Hi there,<br>
         You may download your recorded video from room %s on the link below: <br>
         %s
-        <br>- Qoneq System <br>
+        <br>- Service System <br>
         </p>
         </body>
         </html>
